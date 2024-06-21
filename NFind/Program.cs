@@ -2,7 +2,7 @@
 
 namespace ConsoleApp1
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -69,7 +69,7 @@ namespace ConsoleApp1
             }
         }
 
-        private static FindOptions BuildOptions(string[] args)
+        public static FindOptions BuildOptions(string[] args)
         {
             FindOptions options = new FindOptions();
 

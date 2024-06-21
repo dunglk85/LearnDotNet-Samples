@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class FindOptions
+    public class FindOptions
     {
         public bool FindContainingLines { get; set; } = true;
         public bool CountMode { get; set; } = false;
